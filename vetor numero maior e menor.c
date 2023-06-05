@@ -28,11 +28,13 @@ int main()
  
     }
 
+   system("cls");
+    
     printf("\n");
 
-    for (i = 0; i < 0; i++)
+    for (i = 0; i < 3; i++)
     {
-    printf("%dº valor: %d \n",i + 1 ,numero[i]);
+    printf("%dº valor: %d\n",i + 1 ,numero[i]);
     }
     
     printf("Maior número: %d \n", maiorNumero);
