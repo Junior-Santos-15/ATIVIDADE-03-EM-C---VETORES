@@ -13,7 +13,7 @@ int main()
     for (i = 0; i < 3; i++)
     {
 
-        printf("Digite o %dº valor: ", i + 1);
+        printf("Digite o %dÂº valor: ", i + 1);
         scanf("%d", &numero[i]);
 
         if(numero[i] > maiorNumero)
@@ -32,11 +32,11 @@ int main()
 
     for (i = 0; i < 0; i++)
     {
-    printf("%dº valor: %d \n",i + 1 ,numero[i]);
+    printf("%dÂº valor: %d \n",i + 1 ,numero[i]);
     }
     
-    printf("Maior número: %d \n", maiorNumero);
-    printf("Menor número: %d \n", menorNumero);
+    printf("Maior nÃºmero: %d \n", maiorNumero);
+    printf("Menor nÃºmero: %d \n", menorNumero);
 
     return 0;
 }
