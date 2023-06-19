@@ -7,10 +7,10 @@ int main()
 {
     setlocale(LC_ALL, "portuguese");
 
-    int i, numero[3];
+    int i, numero[5];
     int maiorNumero = INT_MIN, menorNumero = INT_MAX;
 
-    for (i = 0; i < 3; i++)
+    for (i = 0; i < 5; i++)
     {
 
         printf("Digite o %dº valor: ", i + 1);
@@ -32,7 +32,7 @@ int main()
     
     printf("\n");
 
-    for (i = 0; i < 3; i++)
+    for (i = 0; i < 5; i++)
     {
     printf("%dº valor: %d\n",i + 1 ,numero[i]);
     }
